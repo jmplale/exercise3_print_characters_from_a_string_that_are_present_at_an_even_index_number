@@ -9,3 +9,7 @@ print("Printing only even index cards")
 
 # declaring a variable that will determine the list or each letters of what the users input
 letters = list(word)
+
+# using for loop
+for lists in letters[0::2]:
+    print(lists)
