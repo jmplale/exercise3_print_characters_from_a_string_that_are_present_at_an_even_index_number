@@ -6,3 +6,6 @@ word = input("What is the word you want to slice?: ")
 print("Original string is", word)
 #also this one
 print("Printing only even index cards")
+
+# declaring a variable that will determine the list or each letters of what the users input
+letters = list(word)
